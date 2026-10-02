@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  allowedDevOrigins: ['192.168.218.149'],
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
